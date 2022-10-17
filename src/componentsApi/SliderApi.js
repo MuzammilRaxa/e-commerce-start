@@ -12,7 +12,7 @@ export const ApiSlides = [
         src: "./food.png",
         active: true,
         content: {
-            h2: "Amazing Deals of Eid Delicious",
+            h2: "Amazing Deals of Ramadan Delicious",
             p: "Upto 40% off",
         },
         background: 'bg-[#ffd028]'
