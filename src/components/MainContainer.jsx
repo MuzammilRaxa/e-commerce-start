@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Slider from "./Slider";
 
 const MainContainer = () => {
   return (
-    <div>MainContainer</div>
-  )
-}
+    <div>
+      <Slider />
+    </div>
+  );
+};
 
-export default MainContainer
+export default MainContainer;
