@@ -16,9 +16,9 @@ const Header = () => {
     console.log(response);
   };
   return (
-    <header className="fixed z-50 w-screen p-4 px-5">
+    <header className=" bg-white z-50 w-screen p-2 px-5">
       {/*desktop/Tablet*/}
-      <div className="hidden md:flex w-full p-4 items-center justify-between">
+      <div className="hidden md:flex w-full p-1 items-center justify-between">
         <Link to={"/"} className="flex items-center gap-1">
           <img src={Logo} alt="logo" className="w-16 " />
           <p className="text-headingColor text-xl font-bold">Chief</p>

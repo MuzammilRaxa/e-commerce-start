@@ -10,8 +10,10 @@ import './index.css'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Router>
-      <React.StrictMode>
-        <App />
-      </React.StrictMode>
+    {/* <StateProvider initialState={initialState} > */}
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+    {/* </StateProvider > */}
   </Router>
 );
