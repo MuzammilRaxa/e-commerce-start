@@ -1,9 +1,11 @@
 import React from "react";
 import { MainContainer } from "../components";
+import { Header } from "../components";
 
 const Home = () => {
   return (
-    <div className="">
+    <div>
+      <Header />
       <MainContainer />
     </div>
   );
